@@ -11,7 +11,8 @@ The conformers are then extracted from pdb files. The shell script **pdb_splitte
 **Cif conversion**
 The cif conversion requires an external software called VESTA (http://jp-minerals.org/vesta/en/download.html). Download the windows version The cif conversion can only be done in Windows system using the **cif_converter.bat**. The Analogous linux code using for loop can be utilized for Linux system but not for MacOS. Place the bat file where your pdb files are, remove non pdb files from the directory. Go to Windows CMD and go to the directory where the bat file is located and execute bat file using run **cif_converter.bat**.
 
-Generate Promolecule density
-Chmpy python package will be required for this. Install chmpy using **pip install chmpy**
+**Generate Promolecule density**
+Chmpy python package will be required for this. Install chmpy using **pip install chmpy**. In a folder which only contain the cif files place the python file and assign its folder path to variable directory in the promolgen.py file. Create a new directory for storing csv files and assign its folder path to the csv path variable in the promolgen.py file. Execute the python code.
+
 
 
