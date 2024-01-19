@@ -1,5 +1,5 @@
 # 3D point cloud based olfaction ML
-The python code requires rdkit environment. Dataset is got from the following website: www.kaggle.com/datasets/aryanamitbarsainyan/multi-labelled-smiles-odors-dataset
+The python code (**Olfaction_conformer_gen.ipynb**) requires rdkit environment. Dataset is got from the following website: www.kaggle.com/datasets/aryanamitbarsainyan/multi-labelled-smiles-odors-dataset
 The first column of the dataset containing the smiles is saved as mol_list.csv. After obtaining the dataset, the following steps are to be done in the following order:
 
 **Conformer generation**
